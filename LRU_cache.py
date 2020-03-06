@@ -21,7 +21,7 @@ class DoublyLinkedList():
         self.head.prev = temp
         self.head = temp
     
-    def remove(self):
+    def remove(self): 
         if self.tail is None:
             return 
         val = self.tail.key
